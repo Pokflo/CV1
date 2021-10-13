@@ -50,6 +50,10 @@ body {
 
 }
 
+.row {
+    flex-direction: column;
+    align-content: center;
+}
 
 h2, h3, h4, h5, h6 {
     text-align: center;
@@ -111,5 +115,14 @@ img.photo_de_florian {
 li {
     font-weight: bold;
 }
+.qrd{
+    justify-content: space-between;
+}
+#qrcode {
+    width: 15%;
+}
 
-
+#qrw {
+    width: 15%;
+    margin-left: 200px;
+}
